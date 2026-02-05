@@ -1,5 +1,12 @@
 # Finie - AI Finance Agent
 
+[![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-0.2.60-green.svg)](https://github.com/langchain-ai/langgraph)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-orange.svg)](https://openai.com/)
+[![yfinance](https://img.shields.io/badge/yfinance-0.2.66-yellow.svg)](https://github.com/ranaroussi/yfinance)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+
 An autonomous AI finance analyst that investigates stocks, explains price movements, and makes investment predictions using real-time market data.
 
 ## What Finie Does
