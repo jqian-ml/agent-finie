@@ -1,0 +1,31 @@
+# Finie Configuration
+
+# LLM Settings
+llm:
+  model: "gpt-4o-mini"  # Default model for most tasks
+  temperature: 0.1
+  max_tokens: 2000
+  
+  # Model routing (cost optimization)
+  routing:
+    simple_tasks: "gpt-4o-mini"  # Data fetching, simple summaries
+    complex_reasoning: "gpt-4o"  # Multi-source analysis, predictions
+
+# Data Sources
+data_sources:
+  market_data:
+    primary: "yfinance"
+    fallback: "alpha_vantage"
+    cache_ttl: 86400  # 24 hours in seconds
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "./logs/finie.log"
+
+# Agent Settings
+agent:
+  max_iterations: 10
+  timeout: 120  # seconds
+  enable_memory: true
